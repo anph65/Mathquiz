@@ -38,5 +38,10 @@ def math_quiz():
     
     st.write("Congratulations! You are winner!")
 
-if __name__ == "__main__":
+def app():
+    st.set_page_config(page_title="Math Quiz", page_icon=":pencil:", layout="wide")
+    st.title("Math Quiz")
     math_quiz()
+
+if __name__ == "__main__":
+    app()
